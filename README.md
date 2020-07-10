@@ -1,1 +1,1 @@
-# Disaster_Recognition_App-CNN-
+# Disaster_Recognition_App_CNN
