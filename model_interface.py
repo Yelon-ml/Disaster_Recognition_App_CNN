@@ -136,7 +136,7 @@ class MyApp(Frame):
         panel.image = img
         panel.grid(row = 2, column=5, rowspan=9, columnspan=3)
         filter_title = "Filter {} of {} in layer {}".format(self.activation_index + 1, self.activation[0, :, :].shape[2], self.act_index + 1)
-        self.filter_lab.config(text=filter_title)
+        self.filter_lab.config(text=filter_title, font=("Arial, 10"))
         self.root.geometry("1355x600")
         if self.activation_index == 0:
             self.lef_but.config(state='disabled')
